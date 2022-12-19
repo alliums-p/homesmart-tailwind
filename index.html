@@ -195,7 +195,7 @@
             ring-neutral-900 rounded-md ring-offset-4 ring-offset-white dark:ring-amber-400 dark:ring-offset-neutral-800   
             hover:shadow-none transition-shadow
             ">
-              Download the App
+              Sign Up Now!
             </a>
           </div>
 
@@ -222,11 +222,40 @@
 
     <section aria-labelledby="contact" class="container mx-auto px-8 overflow-hidden">
       <div class="flex flex-wrap justify-center gap-12 md:gap-6 lg:gap-20">
-        <div class="md:flex-1 md:max-w-sm relative">
-
-        </div>
+        <di3v class="md:flex-1 md:max-w-sm relative">
+          <img src="./assets/lamp.png" alt="Lamp" class="mx-auto">
+          <a 
+            href="#" 
+            class="py-2 px-6 bg-amber-400 dark:text-neutral-900 
+            w-max mx-auto mt-12 md:mb-12 flex gap-2 shadow-xl focus:outline-none 
+            focus-visible:ring-4  ring-neutral-900 rounded-md 
+            ring-offset-4 ring-offset-white dark:ring-amber-400 
+            dark:ring-offset-neutral-800 hover:shadow-none transition-shadow
+            ">
+              Download the App
+            </a>
+            <img 
+              src="./assets/app.svg" alt="App" width="240" 
+              class="hidden md:block drop-shadow-xl absolute mb-24 left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs"
+            >
+        </di3v>
         <form class="relative border-8 border-neutral-900 p-6 rounded-lggrid gap-8 md:flex-1 md:max-w-lg my-4 md:my-12 lg:my-16 bg-white dark:bg-neutral-800 w-full">
+          <h2 id="contact" class="text-3xl font-bold">Let's Connect</h2>
+          <div class="relative">
+            <label 
+              for="name" 
+              class="text-neutral-500 text-sm font-bold uppercase transition-all 
+                
+              "
+            >Your name</label>
 
+            <input type="text" id="name" 
+              class="peer form-input w-full border-4 border-amber-400 rounded-md 
+                focus:ring-4 dark:focus:ring-offset-2 focus:ring-amber-400 
+                focus:border-amber-400  focus:outline-none dark:bg-amber-400 
+                dark:text-neutral-900 placeholder-transparent"
+              >
+          </div>
         </form>
       </div>
     </section>
